@@ -1,0 +1,12 @@
+name: applied-programming-2026
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12.13
+  - pip=26.2.1
+  - pip:
+      - numpy==2.5.1
+      - pytest==9.1.1
+      - setuptools==83.0.0
+
